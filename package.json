@@ -1,0 +1,30 @@
+{
+  "name": "ai-flashcard-assistant-",
+  "version": "1.0.0",
+  "description": "I made an AI-powered flashcard generator using Node.js and OpenAI, with a custom spaced repetition system to help users remember information more effectively.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maliq0/AI-flashcard-assistant-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Maliq0/AI-flashcard-assistant-/issues"
+  },
+  "homepage": "https://github.com/Maliq0/AI-flashcard-assistant-#readme",
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "openai": "^7.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
