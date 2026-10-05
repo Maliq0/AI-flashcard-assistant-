@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "id": "cc88db8e-f1c8-467d-8240-c13fb4471dee",
+    "question": "What is binary search?",
+    "answer": "An algorithm for finding an item in a sorted list by repeatedly dividing the search interval in half.",
+    "topic": "Data Structures & Algorithms",
+    "createdAt": "2026-10-05T16:19:35.027Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-05T16:19:35.027Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "a9080e24-312b-4ecb-a137-9ff391665670",
+    "question": "What type of list is required for binary search to work?",
+    "answer": "A sorted list.",
+    "topic": "Data Structures & Algorithms",
+    "createdAt": "2026-10-05T16:19:35.027Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-05T16:19:35.027Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "fd9d038a-891c-43b4-b3da-36ec8cdde364",
+    "question": "What is the time complexity of binary search?",
+    "answer": "O(log n).",
+    "topic": "Data Structures & Algorithms",
+    "createdAt": "2026-10-05T16:19:35.027Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-05T16:19:35.027Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "d36b132c-d4a0-4fab-a10b-fa5538f2d8ba",
+    "question": "Why is the time complexity of binary search O(log n)?",
+    "answer": "Because the search space halves with each step.",
+    "topic": "Data Structures & Algorithms",
+    "createdAt": "2026-10-05T16:19:35.027Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-05T16:19:35.027Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "38a6fbf2-ce3f-40a9-8def-a6e8719eb791",
+    "question": "What does binary search do with the search interval?",
+    "answer": "It repeatedly divides the search interval in half.",
+    "topic": "Data Structures & Algorithms",
+    "createdAt": "2026-10-05T16:19:35.027Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-05T16:19:35.027Z",
+    "lastReviewedAt": null
+  }
+]
