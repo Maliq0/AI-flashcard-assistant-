@@ -135,6 +135,7 @@ function renderCurrentCard() {
   elements.flashcardAnswer.classList.add('hidden');
   elements.ratingButtons.forEach((button) => button.parentElement.classList.add('hidden'));
   elements.revealButton.disabled = false;
+  elements.ratingButtons.forEach((button) => (button.disabled = false));
 }
 
 async function loadDueCards() {
@@ -171,6 +172,8 @@ async function handleRatingClick(event) {
   if (!card) {
     return;
   }
+
+  elements.ratingButtons.forEach((button) => (button.disabled = true));
 
   try {
     setStatus(elements.reviewStatus, `Saving ${rating} response...`, '');
@@ -212,5 +215,6 @@ elements.ratingButtons.forEach((button) => {
   button.addEventListener('click', handleRatingClick);
 });
 
+renderGeneratedCards([]);
 showView('generate');
 loadDueCards();

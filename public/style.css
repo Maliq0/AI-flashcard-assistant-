@@ -238,6 +238,11 @@ button:hover:not(:disabled) {
 .rating-buttons button[data-rating="hard"] { background: #fff7ed; }
 .rating-buttons button[data-rating="good"] { background: #ecfdf5; }
 .rating-buttons button[data-rating="easy"] { background: #eff6ff; }
+.rating-buttons button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
 
 #no-cards-message {
   align-self: center;

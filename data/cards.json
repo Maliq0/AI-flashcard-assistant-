@@ -16,10 +16,10 @@
     "answer": "A sorted list.",
     "topic": "Data Structures & Algorithms",
     "createdAt": "2026-10-05T16:19:35.027Z",
-    "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-05T16:19:35.027Z",
-    "lastReviewedAt": null
+    "difficulty": 1,
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-10T09:38:34.948Z",
+    "lastReviewedAt": "2026-10-09T09:38:34.948Z"
   },
   {
     "id": "fd9d038a-891c-43b4-b3da-36ec8cdde364",
@@ -28,9 +28,9 @@
     "topic": "Data Structures & Algorithms",
     "createdAt": "2026-10-05T16:19:35.027Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-05T16:19:35.027Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-10T09:38:37.544Z",
+    "lastReviewedAt": "2026-10-09T09:38:37.544Z"
   },
   {
     "id": "d36b132c-d4a0-4fab-a10b-fa5538f2d8ba",
@@ -39,9 +39,9 @@
     "topic": "Data Structures & Algorithms",
     "createdAt": "2026-10-05T16:19:35.027Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-05T16:19:35.027Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-13T09:38:39.774Z",
+    "lastReviewedAt": "2026-10-09T09:38:39.774Z"
   },
   {
     "id": "38a6fbf2-ce3f-40a9-8def-a6e8719eb791",
@@ -61,9 +61,9 @@
     "topic": "General",
     "createdAt": "2026-10-09T09:10:18.376Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-09T09:10:18.376Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-13T09:38:56.695Z",
+    "lastReviewedAt": "2026-10-09T09:38:56.695Z"
   },
   {
     "id": "45c7014f-8f7b-4b2c-ba94-6146dda3b648",
