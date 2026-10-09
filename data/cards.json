@@ -72,9 +72,9 @@
     "topic": "General",
     "createdAt": "2026-10-09T09:10:18.376Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-09T09:10:18.376Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-10T10:00:32.681Z",
+    "lastReviewedAt": "2026-10-09T10:00:32.681Z"
   },
   {
     "id": "fcb0ea7b-1f12-43ed-b93a-06218e938506",
@@ -83,9 +83,9 @@
     "topic": "General",
     "createdAt": "2026-10-09T09:10:18.376Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-09T09:10:18.376Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-10T10:00:33.953Z",
+    "lastReviewedAt": "2026-10-09T10:00:33.953Z"
   },
   {
     "id": "9d92e4d8-388d-4ad5-a2d0-a0de4c45083d",
@@ -94,9 +94,9 @@
     "topic": "General",
     "createdAt": "2026-10-09T09:10:18.376Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-09T09:10:18.376Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-10T10:00:34.842Z",
+    "lastReviewedAt": "2026-10-09T10:00:34.842Z"
   },
   {
     "id": "22a3aafe-e99c-4a81-97a2-a994b03fbfad",
@@ -105,9 +105,9 @@
     "topic": "General",
     "createdAt": "2026-10-09T09:10:18.376Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-09T09:10:18.376Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-10T10:00:36.303Z",
+    "lastReviewedAt": "2026-10-09T10:00:36.303Z"
   },
   {
     "id": "93255df8-e248-4eb9-9e95-b9e5a2d0fdb4",
@@ -116,9 +116,9 @@
     "topic": "General",
     "createdAt": "2026-10-09T09:10:18.376Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-09T09:10:18.376Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-10T10:00:37.188Z",
+    "lastReviewedAt": "2026-10-09T10:00:37.188Z"
   },
   {
     "id": "23a9b263-a269-410f-9f78-be0ba395ee06",
@@ -127,9 +127,9 @@
     "topic": "General",
     "createdAt": "2026-10-09T09:10:18.376Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-09T09:10:18.376Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-10T10:00:38.041Z",
+    "lastReviewedAt": "2026-10-09T10:00:38.041Z"
   },
   {
     "id": "2af017c8-1917-4024-9855-269d87a96de7",
@@ -138,9 +138,9 @@
     "topic": "General",
     "createdAt": "2026-10-09T09:10:18.376Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-09T09:10:18.376Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-10T10:00:38.924Z",
+    "lastReviewedAt": "2026-10-09T10:00:38.924Z"
   },
   {
     "id": "7b21eb8b-fa70-463d-82ff-ef4cf61f592b",
@@ -294,6 +294,83 @@
     "difficulty": 0,
     "reviewCount": 0,
     "nextReviewDate": "2026-10-09T09:39:57.438Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "2788edb5-a952-4553-8814-bac5b1220dd3",
+    "question": "What is a data structure?",
+    "answer": "A method of organising and storing data for efficient access and modification.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:59:51.607Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:59:51.607Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "7a163021-0a17-4570-9211-1cb9601d7b2c",
+    "question": "What defines an array in data structures?",
+    "answer": "A collection of elements identified by an index.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:59:51.607Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:59:51.607Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "3359946b-bb9a-4b5e-a0ec-cd0aa6eacf5e",
+    "question": "How does a linked list function?",
+    "answer": "It is a linear collection of nodes, each pointing to the next.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:59:51.607Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:59:51.607Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "ba469e15-4582-4bcc-a747-92a0c32dbdc7",
+    "question": "What is the principle of a stack data structure?",
+    "answer": "It follows Last In, First Out (LIFO) order.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:59:51.607Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:59:51.607Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "0329df3a-0c0b-4bc6-8669-96d25305c8c2",
+    "question": "What characterizes a queue data structure?",
+    "answer": "It follows First In, First Out (FIFO) order.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:59:51.607Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:59:51.607Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "fec2c418-d205-41cd-8ba6-e671bb6bea6f",
+    "question": "What is a tree in the context of data structures?",
+    "answer": "A hierarchical structure of nodes connected by edges.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:59:51.607Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:59:51.607Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "f478a299-4680-4474-87f0-6a06993a078e",
+    "question": "What is a graph in data structures?",
+    "answer": "A set of nodes connected by directed or undirected edges.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:59:51.607Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:59:51.607Z",
     "lastReviewedAt": null
   }
 ]

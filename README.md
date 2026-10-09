@@ -38,8 +38,7 @@ questions automatically, and prioritize what I'm weakest on — so I built one.
 
 ## Screenshot
 
-*(Add a screenshot or short GIF here showing the generate and review flow —
-this is one of the first things people look at.)*
+![AI Flashcard Assistant demo](./screenshots/demo.png)
 
 ## Getting started
 
