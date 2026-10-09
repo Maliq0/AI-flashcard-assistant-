@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Flashcard Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>AI Flashcard Assistant</h1>
+      <nav>
+        <button id="nav-generate" class="nav-btn active" data-view="generate" type="button">Generate</button>
+        <button id="nav-review" class="nav-btn" data-view="review" type="button">Review</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="generate-view" class="view">
+        <h2>Create Flashcards from Notes</h2>
+        <form id="generate-form">
+          <label for="topic">Topic</label>
+          <input type="text" id="topic" placeholder="e.g. Data Structures & Algorithms" />
+
+          <label for="notes">Paste your notes</label>
+          <textarea id="notes" rows="8" placeholder="Paste study notes here..." required></textarea>
+
+          <button type="submit" id="generate-btn">Generate Flashcards</button>
+        </form>
+
+        <p id="generate-status" class="status hidden"></p>
+
+        <div id="generated-list" class="card-list"></div>
+      </section>
+
+      <section id="review-view" class="view hidden">
+        <h2>Review Due Cards</h2>
+        <p id="review-status" class="status hidden"></p>
+
+        <div id="review-card-container" class="review-container">
+          <p id="no-cards-message" class="hidden">No cards are due for review right now. 🎉</p>
+
+          <div id="flashcard" class="flashcard hidden">
+            <div class="flashcard-inner">
+              <p id="flashcard-question" class="flashcard-question"></p>
+              <p id="flashcard-answer" class="flashcard-answer hidden"></p>
+            </div>
+
+            <button id="reveal-btn" type="button">Show Answer</button>
+
+            <div id="rating-buttons" class="rating-buttons hidden">
+              <button type="button" data-rating="again">Again</button>
+              <button type="button" data-rating="hard">Hard</button>
+              <button type="button" data-rating="good">Good</button>
+              <button type="button" data-rating="easy">Easy</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

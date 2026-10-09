@@ -6,9 +6,9 @@
     "topic": "Data Structures & Algorithms",
     "createdAt": "2026-10-05T16:19:35.027Z",
     "difficulty": 0,
-    "reviewCount": 0,
-    "nextReviewDate": "2026-10-05T16:19:35.027Z",
-    "lastReviewedAt": null
+    "reviewCount": 1,
+    "nextReviewDate": "2026-10-10T09:10:22.874Z",
+    "lastReviewedAt": "2026-10-09T09:10:22.874Z"
   },
   {
     "id": "a9080e24-312b-4ecb-a137-9ff391665670",
@@ -53,5 +53,170 @@
     "reviewCount": 2,
     "nextReviewDate": "2026-10-13T09:03:46.342Z",
     "lastReviewedAt": "2026-10-09T09:03:46.342Z"
+  },
+  {
+    "id": "ec49923b-bfae-4b14-a7a1-0eb91a70921c",
+    "question": "What process converts light energy into chemical energy?",
+    "answer": "Photosynthesis",
+    "topic": "General",
+    "createdAt": "2026-10-09T09:10:18.376Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:10:18.376Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "45c7014f-8f7b-4b2c-ba94-6146dda3b648",
+    "question": "What is the primary function of photosynthesis?",
+    "answer": "To convert light energy into chemical energy.",
+    "topic": "General",
+    "createdAt": "2026-10-09T09:10:18.376Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:10:18.376Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "fcb0ea7b-1f12-43ed-b93a-06218e938506",
+    "question": "In which organisms does photosynthesis primarily occur?",
+    "answer": "In plants, algae, and some bacteria.",
+    "topic": "General",
+    "createdAt": "2026-10-09T09:10:18.376Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:10:18.376Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "9d92e4d8-388d-4ad5-a2d0-a0de4c45083d",
+    "question": "What is the main product of photosynthesis?",
+    "answer": "Chemical energy in the form of glucose.",
+    "topic": "General",
+    "createdAt": "2026-10-09T09:10:18.376Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:10:18.376Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "22a3aafe-e99c-4a81-97a2-a994b03fbfad",
+    "question": "What type of energy is used in photosynthesis?",
+    "answer": "Light energy.",
+    "topic": "General",
+    "createdAt": "2026-10-09T09:10:18.376Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:10:18.376Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "93255df8-e248-4eb9-9e95-b9e5a2d0fdb4",
+    "question": "What is the significance of photosynthesis in the ecosystem?",
+    "answer": "It provides energy for nearly all living organisms and produces oxygen.",
+    "topic": "General",
+    "createdAt": "2026-10-09T09:10:18.376Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:10:18.376Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "23a9b263-a269-410f-9f78-be0ba395ee06",
+    "question": "What are the raw materials needed for photosynthesis?",
+    "answer": "Carbon dioxide and water.",
+    "topic": "General",
+    "createdAt": "2026-10-09T09:10:18.376Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:10:18.376Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "2af017c8-1917-4024-9855-269d87a96de7",
+    "question": "What is the relationship between photosynthesis and cellular respiration?",
+    "answer": "Photosynthesis produces glucose and oxygen, which are used in cellular respiration to produce energy.",
+    "topic": "General",
+    "createdAt": "2026-10-09T09:10:18.376Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:10:18.376Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "7b21eb8b-fa70-463d-82ff-ef4cf61f592b",
+    "question": "What is a data structure?",
+    "answer": "A method of organising and storing data in a way that enables efficient access and modification.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:16:45.137Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:16:45.137Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "cdfa2dd4-70e0-4559-b004-6342375af21f",
+    "question": "What is an array?",
+    "answer": "A collection of elements identified by an index.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:16:45.137Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:16:45.137Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "c179c583-f089-49bd-99ed-c540bc2e494e",
+    "question": "How does a linked list function?",
+    "answer": "It is a linear collection of nodes, each pointing to the next.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:16:45.137Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:16:45.137Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "3528c5b9-6b54-4497-a38f-455cac7dc0d0",
+    "question": "What is the main characteristic of a stack?",
+    "answer": "It follows the Last In, First Out (LIFO) principle.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:16:45.137Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:16:45.137Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "d29c82ca-e6a3-4913-bf4e-0ccf40bceb93",
+    "question": "What does FIFO stand for in the context of a queue?",
+    "answer": "First In, First Out.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:16:45.137Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:16:45.137Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "e2782535-ec56-454e-a371-2c086851d6ef",
+    "question": "Describe the structure of a tree in data structures.",
+    "answer": "A hierarchical structure of nodes connected by edges.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:16:45.137Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:16:45.137Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "f974def3-db36-4253-95bb-5c51ea45ca53",
+    "question": "What is a graph in data structures?",
+    "answer": "A set of nodes connected by directed or undirected edges.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:16:45.137Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:16:45.137Z",
+    "lastReviewedAt": null
   }
 ]

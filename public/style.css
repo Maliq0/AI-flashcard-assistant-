@@ -1,0 +1,265 @@
+:root {
+  --bg: #f4f7fb;
+  --panel: #ffffff;
+  --panel-alt: #eef3ff;
+  --primary: #3056d3;
+  --primary-dark: #203a96;
+  --accent: #ebf3ff;
+  --border: #dfe7f5;
+  --text: #1f2937;
+  --muted: #5c677a;
+  --success: #2d8f5b;
+  --warning: #a15f00;
+  --error: #c13b3b;
+  --shadow: 0 12px 30px rgba(41, 60, 118, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 2rem;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 4px 10px rgba(17, 24, 39, 0.04);
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 2vw, 2.2rem);
+}
+
+nav {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.nav-btn {
+  border: 1px solid var(--border);
+  background: var(--panel-alt);
+  color: var(--text);
+  padding: 0.7rem 1.1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.nav-btn.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+main {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.view {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 2rem;
+}
+
+#generate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+label {
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  background: #fff;
+  color: var(--text);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+button[type="submit"],
+#reveal-btn,
+.rating-buttons button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease, background 0.15s ease;
+}
+
+button[type="submit"],
+#reveal-btn {
+  background: var(--primary);
+  color: white;
+  padding: 0.85rem 1.2rem;
+  font-weight: 700;
+}
+
+button[type="submit"]:disabled,
+#reveal-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.status {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.status.error {
+  color: var(--error);
+}
+
+.status.success {
+  color: var(--success);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.card-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.generated-card {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fff, #fbfcff);
+  padding: 1rem 1.1rem;
+}
+
+.generated-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.generated-card p {
+  margin: 0.25rem 0;
+  line-height: 1.5;
+}
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  min-height: 320px;
+}
+
+.flashcard {
+  width: min(100%, 640px);
+  background: linear-gradient(180deg, #ffffff, #eef4ff);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 1.25rem;
+}
+
+.flashcard-inner {
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(48, 86, 211, 0.04);
+  border-radius: 14px;
+  padding: 1.2rem;
+  border: 1px solid rgba(48, 86, 211, 0.08);
+}
+
+.flashcard-question,
+.flashcard-answer {
+  margin: 0;
+  font-size: clamp(1.05rem, 2vw, 1.4rem);
+  line-height: 1.6;
+  text-align: center;
+}
+
+.flashcard-answer {
+  color: var(--primary-dark);
+}
+
+#reveal-btn {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.rating-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.rating-buttons button {
+  background: var(--accent);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.8rem 0.6rem;
+  font-weight: 700;
+}
+
+.rating-buttons button[data-rating="again"] { background: #fef2f2; }
+.rating-buttons button[data-rating="hard"] { background: #fff7ed; }
+.rating-buttons button[data-rating="good"] { background: #ecfdf5; }
+.rating-buttons button[data-rating="easy"] { background: #eff6ff; }
+
+#no-cards-message {
+  align-self: center;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 640px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .nav-btn {
+    flex: 1;
+  }
+
+  .rating-buttons {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
