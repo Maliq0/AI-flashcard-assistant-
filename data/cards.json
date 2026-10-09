@@ -218,5 +218,82 @@
     "reviewCount": 0,
     "nextReviewDate": "2026-10-09T09:16:45.137Z",
     "lastReviewedAt": null
+  },
+  {
+    "id": "f3850585-472c-4fc9-9022-943484df3aed",
+    "question": "What is a data structure?",
+    "answer": "A method of organising and storing data in a way that enables efficient access and modification.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:39:57.438Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:39:57.438Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "824a567b-fbba-42e3-aa8c-988b4dc03b81",
+    "question": "What defines an Array in data structures?",
+    "answer": "A collection of elements identified by an index.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:39:57.438Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:39:57.438Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "38b01005-9276-43ee-a16c-e0cf7774d302",
+    "question": "How does a Linked List function?",
+    "answer": "It is a linear collection of nodes, each pointing to the next.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:39:57.438Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:39:57.438Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "1e16da3f-db39-48d5-829d-8029356785e0",
+    "question": "What is the main characteristic of a Stack?",
+    "answer": "It follows the Last In, First Out (LIFO) principle.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:39:57.438Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:39:57.438Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "73ef4e78-96c9-4a4a-a724-23eb74f89590",
+    "question": "What principle does a Queue operate on?",
+    "answer": "It operates on the First In, First Out (FIFO) principle.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:39:57.438Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:39:57.438Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "eab4ea59-9194-4dfb-9750-b647e8b8c5c4",
+    "question": "Describe a Tree in the context of data structures.",
+    "answer": "A hierarchical structure of nodes connected by edges.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:39:57.438Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:39:57.438Z",
+    "lastReviewedAt": null
+  },
+  {
+    "id": "988b38cd-7880-4d71-aa0b-73b040031834",
+    "question": "What is a Graph in data structures?",
+    "answer": "A set of nodes connected by directed or undirected edges.",
+    "topic": "Data structure and allgorithms",
+    "createdAt": "2026-10-09T09:39:57.438Z",
+    "difficulty": 0,
+    "reviewCount": 0,
+    "nextReviewDate": "2026-10-09T09:39:57.438Z",
+    "lastReviewedAt": null
   }
 ]
