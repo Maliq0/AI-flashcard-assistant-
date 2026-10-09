@@ -3,7 +3,6 @@ const crypto = require('crypto');
 const { generateFlashcardsFromNotes } = require('../services/openaiService');
 const { RATINGS, scheduleReview } = require('../services/scheduler');
 const { readCards, writeCards } = require('../utils/fileStorage');
-
 const router = express.Router();
 
 router.post('/generate', async (req, res) => {
